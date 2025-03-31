@@ -28,18 +28,18 @@ function Navbar() {
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#skills">
             <div className="font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">SKILLS</div></Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects">
             <div className="font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">PROJECTS</div></Link>
-          </li>
+          </li> */}
           <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#education">
             <div className=" font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">EDUCATION</div></Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#testimonials">
             <div className=" font-bold text-sm text-[#FC1500] transition-colors duration-300 hover:text-green-600">TESTIMONIALS</div></Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

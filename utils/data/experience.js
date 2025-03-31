@@ -5,8 +5,8 @@ export const experiences = [
     company: "PromoDome Digital LLP",
     duration: "Aug 2022 - Present",
     tools: ['React.js', 'Vue.js', 'Next js', 'MySQL', 'Express js', 'Vuetify', 'DigitalOcean', 'SEO', 'Cloudflare', 'Nginix'],
-    image: '/png/USDR.png',
-    description: 'At U.S. Digital Response, I contributed to the development of the Grants Tool (GOST), empowering over 250 U.S. government officials to apply for and report on federal grants. I built and refined UI components and back-end services using React.js, Node.js, Docker, and AWS, ensuring a robust and seamless grant discovery and tracking experience. My work integrated databases like DynamoDB and PostgreSQL, enabling efficient data management for the application.'
+    image: '/png/promodome-square-logo-1-1.png',
+    description: 'As a Full Stack Developer at PromoDome Digital LLP, I design and develop scalable web applications using React.js, Vue.js, Next.js, and Express.js. I manage databases with MySQL, optimize performance with Cloudflare and Nginx, and deploy applications on DigitalOcean. I also enhance SEO strategies and create seamless UI/UX experiences with Vuetify, ensuring high-performance and user-friendly web solutions.'
   },
   {
     id: 2,
@@ -14,8 +14,8 @@ export const experiences = [
     company: "PromoDome Digital LLP",
     duration: "Jun 2022 - Aug 2022",
     tools: ['WordPress', 'Html', 'CSS', 'Javascript', 'Elementor', 'Wp-Bakery', 'DigitalOcean', 'SEO', 'Cloudflare', 'Nginix'],
-    image: '/png/infosys.png',
-    description: 'At Infosys, I developed CyberScan, a scalable vulnerability management SaaS application deployed across 40,000+ machines. I designed dynamic UI components using Angular & RxJS and implemented a reusable authentication system with Java Spring Boot & JWT, saving development time across multiple projects. I improved code stability by refactoring legacy code and automating tests with JUnit and Mockito to achieve over 90% code coverage, while enhancing team efficiency through detailed technical and user documentation. Additionally, I mentored four interns as a Scrum Master, leveraging Agile practices and TDD to ensure well-designed code and timely project delivery.'
+    image: '/png/promodome-square-logo-1-1.png',
+    description: 'At PromoDome Digital LLP, I worked as a WordPress Developer, building and optimizing websites for performance, SEO, and user engagement. I developed custom themes and plugins using WordPress, HTML, CSS, and JavaScript, ensuring responsiveness and functionality.I leveraged Elementor and WP-Bakery to design visually appealing, dynamic layouts while enhancing website performance using Cloudflare and Nginx configurations. I also managed hosting and deployment on DigitalOcean, implementing security measures and optimizing server performance.Additionally, I applied SEO best practices to improve search rankings and drive organic traffic, ensuring that websites met both technical and business objectives.'
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ export const experiences = [
     company: "Freelancing",
     duration: "Aug 2021 - May 2022",
     tools: ['WordPress', 'Html', 'CSS', 'Javascript', 'Elementor', 'Wp-Bakery'],
-    image: '/png/aapt.png',
-    description: 'At AAPT, I built an Angular and Spring Boot application that digitized over 10K client records, significantly enhancing data management efficiency. I streamlined operations by more than 60% by developing an analytics dashboard, training reminders, and a scheduler. I also contributed to backend development using OOP, Java, and Spring Boot, adhering to agile methodologies. Overall, my work enabled AAPT to manage client data more efficiently and optimize operational processes.'
+    image: '/',
+    description: 'As a Freelance WordPress Developer, I built and customized websites using WordPress, HTML, CSS, JavaScript, Elementor, and WP-Bakery. I optimized performance, improved SEO, and ensured responsive designs while collaborating with clients to deliver tailored digital solutions. This experience enhanced my ability to manage projects independently and meet tight deadlines.'
   },
 ]
 
