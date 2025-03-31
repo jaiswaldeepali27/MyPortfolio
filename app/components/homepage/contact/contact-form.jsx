@@ -21,37 +21,37 @@ function ContactForm() {
     }
   };
 
-  const handleSendMail = async (e) => {
-    e.preventDefault();
+  // const handleSendMail = async (e) => {
+  //   e.preventDefault();
 
-    if (!userInput.email || !userInput.message || !userInput.name) {
-      setError({ ...error, required: true });
-      return;
-    } else if (error.email) {
-      return;
-    } else {
-      setError({ ...error, required: false });
-    };
+  //   if (!userInput.email || !userInput.message || !userInput.name) {
+  //     setError({ ...error, required: true });
+  //     return;
+  //   } else if (error.email) {
+  //     return;
+  //   } else {
+  //     setError({ ...error, required: false });
+  //   };
 
-    try {
-      setIsLoading(true);
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
-      );
+  //   try {
+  //     setIsLoading(true);
+  //     const res = await axios.post(
+  //       `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
+  //       userInput
+  //     );
 
-      toast.success("Message sent successfully!");
-      setUserInput({
-        name: "",
-        email: "",
-        message: "",
-      });
-    } catch (error) {
-      toast.error(error?.response?.data?.message);
-    } finally {
-      setIsLoading(false);
-    };
-  };
+  //     toast.success("Message sent successfully!");
+  //     setUserInput({
+  //       name: "",
+  //       email: "",
+  //       message: "",
+  //     });
+  //   } catch (error) {
+  //     toast.error(error?.response?.data?.message);
+  //   } finally {
+  //     setIsLoading(false);
+  //   };
+  // };
 
   return (
     <div>
@@ -115,7 +115,7 @@ function ContactForm() {
             <button
               className="flex items-center gap-1 hover:gap-3 rounded-full bg-[#046a38] px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
               role="button"
-              onClick={handleSendMail}
+              // onClick={handleSendMail}
               disabled={isLoading}
             >
               {
